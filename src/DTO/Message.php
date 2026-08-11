@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace EorBah545\AI\DTO;
 
-use AI\Enum\Role;
+use EorBah545\AI\Enum\Role;
 
 /**
  * Un message de conversation. $content est soit une simple chaîne (cas

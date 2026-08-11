@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace EorBah545\AI\DTO;
 
-use AI\Enum\FinishReason;
+use EorBah545\AI\Enum\FinishReason;
 
 final class ChatResponse
 {

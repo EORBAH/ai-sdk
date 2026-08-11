@@ -15,7 +15,7 @@ use EorBah545\AI\Exceptions\AiException;
 use EorBah545\AI\Schema;
 use EorBah545\AI\Tool;
 use EorBah545\AI\ToolRegistry;
-use EorBah545\PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\TestCase;
 
 final class AgentTest extends TestCase
 {
