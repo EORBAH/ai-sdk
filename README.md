@@ -18,7 +18,7 @@ calling, structured output) ne change pas quand vous changez de fournisseur.
 ## Installation
 
 ```bash
-composer require ai/ai-sdk
+composer require eor_bah545/ai-sdk
 ```
 
 ## Démarrage rapide
