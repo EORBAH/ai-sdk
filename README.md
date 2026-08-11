@@ -24,10 +24,10 @@ composer require ai/ai-sdk
 ## Démarrage rapide
 
 ```php
-use AI\Providers\OpenAI\OpenAIProvider;
-use AI\Providers\Anthropic\AnthropicProvider;
-use AI\DTO\ChatRequest;
-use AI\DTO\Message;
+use EorBah545\AI\Providers\OpenAI\OpenAIProvider;
+use EorBah545\AI\Providers\Anthropic\AnthropicProvider;
+use EorBah545\AI\DTO\ChatRequest;
+use EorBah545\AI\DTO\Message;
 
 $provider = new OpenAIProvider(getenv('OPENAI_API_KEY'));
 // ou : new AnthropicProvider(getenv('ANTHROPIC_API_KEY'));
