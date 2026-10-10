@@ -2,10 +2,7 @@
 
 ⚠️ Contrairement aux exemples des autres packages, ceux-ci **nécessitent de
 vraies clés API** (OpenAI, Anthropic...) pour s'exécuter — ils ne peuvent pas
-tourner sans réseau. Le code lui-même a été validé (mapping des requêtes/
-réponses testé via Reflection, sans réseau — voir `tests/`), mais l'appel
-réseau bout en bout n'a pas pu être exécuté dans l'environnement où ce
-package a été écrit.
+tourner sans réseau.
 
 ```bash
 export OPENAI_API_KEY=sk-...
