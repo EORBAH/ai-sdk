@@ -37,10 +37,9 @@ $agent = new Agent(
 );
 
 $response = $agent->run(
-    'Je veut que tu me créer un packages php ensuite que tu compresse en .zip et tu copie' .
+    'Je veut que tu me créer une app web ensuite que tu compresse en .zip et tu copie' .
     "le dossier vers {$outputZip}." .
-    "Il faut que ce packages soit un mini fastapi tu as accès a composer install eor_bah545/asyncio et" .
-    "concois moi une apis avec des routes une classe FastAPI, Request, Response, des function comme JSONResponse et avec un support sur les return [] et \$request->headers[]"
+    "Il faut que cette appweb soit un petit agent bref debrouille toi..."
 );
 
 echo $response->text . "\n";
