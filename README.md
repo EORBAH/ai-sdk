@@ -75,14 +75,7 @@ Voir [`docs/02-providers.md`](docs/02-providers.md) pour le détail.
 
 ## ⚠️ Important — tests et réseau
 
-Ce package a été développé et sa **logique interne validée en exécution
-réelle** (construction des requêtes, parsing des réponses, boucle d'agent,
-outils intégrés bash/éditeur/exécution de code) via des tests qui
-n'exigent pas de connexion réseau. En revanche, **les appels HTTP réels
-vers OpenAI/Anthropic n'ont pas pu être testés** dans l'environnement où ce
-package a été écrit (pas de clé API, pas d'accès sortant). Avant une mise
-en production, testez chaque provider avec de vraies clés API sur quelques
-cas simples.
+> peut contenir des bugs non corriger signaler les !
 
 ## Documentation & exemples
 
