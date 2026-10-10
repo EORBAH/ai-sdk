@@ -76,15 +76,6 @@ Docs : https://api-docs.deepseek.com
 
 Docs : https://docs.mistral.ai/api/
 
-### Manus — ⚠️ non implémenté
-
-`ManusProvider` existe pour respecter l'architecture mais **lève une
-exception à l'usage** : au moment de la rédaction de ce package, aucune API
-publique de type "chat completions" documentée n'a été trouvée pour Manus.
-Si Manus publie une API compatible OpenAI, il suffira de la faire hériter
-d'`OpenAIProvider` comme les trois précédents. Vérifiez la documentation
-officielle Manus avant d'utiliser ce provider en pratique.
-
 ## Ajouter un fournisseur non listé ici
 
 Voir la section "Étendre le SDK à un nouveau fournisseur" dans
