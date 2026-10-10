@@ -69,7 +69,6 @@ echo $response->text;
 | `XAIProvider` (Grok) | Fonctionnel | étend `OpenAIProvider` (API compatible) |
 | `DeepSeekProvider` | Fonctionnel | étend `OpenAIProvider` (API compatible) |
 | `MistralProvider` | Fonctionnel | étend `OpenAIProvider` (API compatible) |
-| `ManusProvider` | ⚠️ Stub non implémenté | aucune API publique confirmée au moment de l'écriture |
 
 Voir [`docs/02-providers.md`](docs/02-providers.md) pour le détail.
 
